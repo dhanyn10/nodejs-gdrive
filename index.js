@@ -81,15 +81,15 @@ function getAccessToken(oAuth2Client, callback) {
  * Lists the names and IDs of up to 10 files.
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
-function listFiles(auth) {
+function listFiles(auth)
+{
     const drive = google.drive({
         version: 'v3', auth
     });
     drive.files.list({
         pageSize: 10,
         fields: 'nextPageToken, files(id, name)',
-    }, (err, res) =>
-    {
+    }, (err, res) => {
         if(err)
         {
             return console.log('The API returned an error: ' + err);
