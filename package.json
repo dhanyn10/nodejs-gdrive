@@ -22,7 +22,7 @@
   "homepage": "https://github.com/dhanyn10/nodejs-gdrive#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "googleapis": "^27.0.0",
+    "googleapis": "^40.0.0",
     "open": "^6.3.0",
     "server-destroy": "^1.0.1"
   }
