@@ -23,7 +23,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "googleapis": "^42.0.0",
-    "open": "^6.3.0",
+    "open": "^7.0.0",
     "server-destroy": "^1.0.1"
   }
 }
